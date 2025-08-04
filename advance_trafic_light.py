@@ -92,7 +92,6 @@ def automatic_cycle():
 
     obj.after(1000, automatic_cycle)
 
-# Buttons
 red_button = Button(obj, text="Turn on Red", bg="red", width=12, height=2, command=lambda: menual("red"))
 red_button.place(x=20, y=70)
 
